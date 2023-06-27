@@ -122,11 +122,6 @@ include:
   - .htaccess
   - _pages
   - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
@@ -135,6 +130,12 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
